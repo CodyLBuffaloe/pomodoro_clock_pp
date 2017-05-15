@@ -1,0 +1,55 @@
+body{
+    font-family: Helvetica;
+    color: #8a0104;
+    background-color: #ccffcc;
+}
+
+h2 {
+    text-align: center;
+
+}
+#wrapper{
+    width: 40%;
+    text-align: center;
+    overflow: hidden;
+    margin: 50px 0px 0px 450px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+
+p {
+    text-align: center;
+    font-size: 28px;
+}
+
+.worktime {
+    border: solid 3px #8a0104;
+    border-radius: 5px;
+    float: left;
+    vertical-align: top;
+    height: 200px;
+    width: 200px;
+}
+
+.breaktime {
+    border: solid 3px #8a0104;
+    border-radius: 5px;
+    float: left;
+    vertical-align: top;
+    height: 200px;
+    width: 200px;
+}
+
+#Wstart, #Bstart{
+    color: green;
+}
+
+#Wstop, #Bstop{
+    color: red;
+}
+
+#Wclear, #Bclear{
+    color: blue;
+}
